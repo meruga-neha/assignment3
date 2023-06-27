@@ -1,7 +1,6 @@
-variable = tuple(map(int,input().split()))
-def sum_numbers(num):
+def sum_num(numb):
     total = 0
-    for x in num:
+    for x in numb:
         total += x
     return total
-print(sum_numbers(variable))
+print(sum_num((8,2,3,0,7)))
